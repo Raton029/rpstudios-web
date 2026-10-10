@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería – RP Studios</title>
+  <meta name="description" content="Capturas de pantalla de la app RP Studios.">
+  <meta name="theme-color" content="#0b1018">
+  <meta property="og:title" content="Galería – RP Studios">
+  <meta property="og:description" content="Capturas de pantalla de la app RP Studios.">
+  <meta property="og:image" content="img/og.jpg">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preload" href="fonts/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css?v=4">
+  <script src="menu.js?v=4" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="topbar__brand" href="index.html">
+        <img src="img/logo.webp" width="40" height="40" alt="">
+        RP Studios
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="menu-btn__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menú</span>
+      </button>
+      <nav id="menu" class="menu" aria-label="Principal">
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="rpstudios.html">RP Studios</a></li>
+        <li><a href="galeria.html" aria-current="page">Galería</a></li>
+        <li><a href="descargar.html">Descargar</a></li>
+        <li><a href="socialplay.html">SocialPlay</a></li>
+        </ul>
+        <a class="btn btn--primary menu__cta" href="descargar.html"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 1.4-1.4L11 13.6V4a1 1 0 0 1 1-1ZM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2Z"/></svg> Descargar la app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-head wrap">
+      <h1 class="display">Galería</h1>
+      <p class="lead">Capturas de RP Studios en el móvil. Toca una para verla en grande.</p>
+    </section>
+
+    <section class="wrap block block--tight">
+      <ul class="gallery">
+        <li><button class="shot" type="button" data-index="0" aria-label="Ampliar: Portada con una película destacada"><img src="img/capturas/portada.webp" width="560" height="1201" loading="lazy" alt="Portada con una película destacada"></button><span>Portada con una película destacada</span></li>
+        <li><button class="shot" type="button" data-index="1" aria-label="Ampliar: Inicio con la fila Seguir viendo"><img src="img/capturas/inicio.webp" width="560" height="1201" loading="lazy" alt="Inicio con la fila Seguir viendo"></button><span>Inicio con la fila Seguir viendo</span></li>
+        <li><button class="shot" type="button" data-index="2" aria-label="Ampliar: Ficha de película con valoraciones y Continuar desde"><img src="img/capturas/ficha.webp" width="560" height="1201" loading="lazy" alt="Ficha de película con valoraciones y Continuar desde"></button><span>Ficha de película con valoraciones y Continuar desde</span></li>
+        <li><button class="shot" type="button" data-index="3" aria-label="Ampliar: Top 10 de la comunidad"><img src="img/capturas/top10.webp" width="560" height="1201" loading="lazy" alt="Top 10 de la comunidad"></button><span>Top 10 de la comunidad</span></li>
+        <li><button class="shot" type="button" data-index="4" aria-label="Ampliar: Recomendaciones según lo que has visto"><img src="img/capturas/recomendaciones.webp" width="560" height="1201" loading="lazy" alt="Recomendaciones según lo que has visto"></button><span>Recomendaciones según lo que has visto</span></li>
+        <li><button class="shot" type="button" data-index="5" aria-label="Ampliar: Filas temáticas de la portada"><img src="img/capturas/secciones.webp" width="560" height="1201" loading="lazy" alt="Filas temáticas de la portada"></button><span>Filas temáticas de la portada</span></li>
+        <li><button class="shot" type="button" data-index="6" aria-label="Ampliar: Explorar por géneros"><img src="img/capturas/generos.webp" width="560" height="1201" loading="lazy" alt="Explorar por géneros"></button><span>Explorar por géneros</span></li>
+        <li><button class="shot" type="button" data-index="7" aria-label="Ampliar: Colecciones de sagas"><img src="img/capturas/colecciones.webp" width="560" height="1201" loading="lazy" alt="Colecciones de sagas"></button><span>Colecciones de sagas</span></li>
+        <li><button class="shot" type="button" data-index="8" aria-label="Ampliar: Búsqueda por actor"><img src="img/capturas/actor.webp" width="560" height="1201" loading="lazy" alt="Búsqueda por actor"></button><span>Búsqueda por actor</span></li>
+        <li><button class="shot" type="button" data-index="9" aria-label="Ampliar: Mis descargas"><img src="img/capturas/descargas.webp" width="560" height="1201" loading="lazy" alt="Mis descargas"></button><span>Mis descargas</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap block" aria-labelledby="t-gal-player">
+      <h2 id="t-gal-player" class="rowtitle">El reproductor</h2>
+      <ul class="gallery gallery--land">
+        <li><button class="shot" type="button" data-index="10" aria-label="Ampliar: Reproductor a pantalla completa"><img src="img/capturas/reproductor.webp" width="1100" height="456" loading="lazy" alt="Reproductor a pantalla completa"></button><span>Reproductor a pantalla completa</span></li>
+        <li><button class="shot" type="button" data-index="11" aria-label="Ampliar: Opciones de audio, subtítulos, velocidad y búfer"><img src="img/capturas/opciones.webp" width="1100" height="456" loading="lazy" alt="Opciones de audio, subtítulos, velocidad y búfer"></button><span>Opciones de audio, subtítulos, velocidad y búfer</span></li>
+        <li><button class="shot" type="button" data-index="12" aria-label="Ampliar: Enviar a la tele desde el móvil"><img src="img/capturas/enviar-tele.webp" width="1100" height="456" loading="lazy" alt="Enviar a la tele desde el móvil"></button><span>Enviar a la tele desde el móvil</span></li>
+      </ul>
+    </section>
+
+    <dialog class="lightbox" aria-label="Captura ampliada">
+      <button class="lightbox__close" type="button" aria-label="Cerrar">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Anterior">&#8249;</button>
+      <figure class="lightbox__figure">
+        <img src="" alt="">
+        <figcaption></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Siguiente">&#8250;</button>
+    </dialog>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <nav class="footer__nav" aria-label="Pie"><a href="index.html">Inicio</a> <a href="rpstudios.html">RP Studios</a> <a href="galeria.html">Galería</a> <a href="descargar.html">Descargar</a> <a href="socialplay.html">SocialPlay</a></nav>
+      <p>RP Studios · Raton &amp; Puig Movies · Hecho con software libre</p>
+    </div>
+  </footer>
+</body>
+</html>

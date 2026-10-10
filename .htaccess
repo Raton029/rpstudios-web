@@ -1,0 +1,9 @@
+# Que el navegador compruebe siempre si hay una versión nueva de las páginas
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+
+# Sin listado de archivos
+Options -Indexes
